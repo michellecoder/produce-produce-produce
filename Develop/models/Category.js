@@ -13,10 +13,12 @@ Category.init({
 
     },
 
-    catagory_name: {
+    category_name: {
         type: DataTypes.STRING,
         allowNull: false,
-    }
+    },
+
+
 }, {
     sequelize,
     timestamps: false,
